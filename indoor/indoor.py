@@ -1,2 +1,2 @@
-hello = input('say something ').string.lower()
+hello = input('say something ').lower()
 print(hello)
