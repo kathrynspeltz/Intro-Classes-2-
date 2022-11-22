@@ -1,2 +1,2 @@
-output = input('say something ').replace(" ", .[, 3])
+output = input('say something ').replace(" ", ... )
 print(output)
