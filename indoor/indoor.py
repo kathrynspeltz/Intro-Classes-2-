@@ -1,2 +1,2 @@
 hello = input('')
-print(message.lower(hello))
+print(string.lower(hello))
