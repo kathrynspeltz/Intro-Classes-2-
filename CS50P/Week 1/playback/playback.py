@@ -1,2 +1,2 @@
-output = input('say something ').lower()
+output = input('say something ').replace(" ",...)
 print(output)
