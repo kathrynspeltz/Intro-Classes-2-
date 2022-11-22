@@ -1,1 +1,2 @@
+hello = 
 print(message.lower())
