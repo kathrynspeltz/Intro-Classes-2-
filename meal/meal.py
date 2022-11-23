@@ -5,7 +5,7 @@ def main():
 
 
 def convert(time):
-    ... = time.split(":")
+    ...hours, minutes = time.split(":")
 
 
 if __name__ == "__main__":
