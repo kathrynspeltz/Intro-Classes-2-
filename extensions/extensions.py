@@ -2,7 +2,7 @@ response = input("what is your file name? ").casefold().strip()
 
 if response.endswith(".gif"):
     print("image/gif")
-elif response.endswith(".jpg") or esponse.endswith(".jpeg"):
+elif response.endswith(".jpg") or response.endswith(".jpeg"):
     print("image/jpeg")
 elif response.endswith(".png"):
     print("image/png")
