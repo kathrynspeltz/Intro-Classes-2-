@@ -5,15 +5,12 @@ if hours == "7":
 elif hours == "8" and minutes == "00":
     print("breakfast time")
 
-elif hours == 12:
+elif hours == "12":
     print("lunch time")
-elif hours == 13 and minutes == 00:
+elif hours == "13" and minutes == "00":
     print("lunch time")
 
-elif hours == 18:
+elif hours == "18":
     print("dinner time")
-elif hours == 19 and minutes == 00:
+elif hours == "19" and minutes == "00":
     print("dinner time")
-
-else:
-    print("skipped")
