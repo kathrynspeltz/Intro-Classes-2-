@@ -5,4 +5,4 @@ def expression(d):
     return float(d)
 
 
-Print(int(xyz))
+Print(int(x, y, z))
