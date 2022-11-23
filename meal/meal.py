@@ -1,7 +1,4 @@
-hours, minutes = convert_time(input("what time is it? ")).split(".")
-
-def convert_time(time):
-    float(time)
+hours, minutes = input("what time is it? ").split(".")
 
 if hours == "7":
     print("breakfast time")
