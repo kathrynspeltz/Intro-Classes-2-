@@ -1,3 +1,4 @@
-time = int(input("what time is it? "))
+hours, minutes = int(input("what time is it? ")).split(":")
 
-if 7 >
+if hours = 7:
+    print()
