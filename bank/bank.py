@@ -1,1 +1,1 @@
-response = input("How would you like to be greeted? ")
+response = input("How would you like to be greeted? ").casefold()
