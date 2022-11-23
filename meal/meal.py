@@ -1,11 +1,11 @@
-hours, minutes = input("what time is it? ")
+
 
 def main():
-    ...
+    ...time = input("what time is it? ")
 
 
 def convert(time):
-    ...hours, minutes = time.split(":")
+    ... = time.split(":")
 
 
 if __name__ == "__main__":
