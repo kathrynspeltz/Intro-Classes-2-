@@ -1,8 +1,13 @@
 x, y, z = input("what are your values? ").split
 
-def example_a(d):
-    float(d)
-    return float(d)
+if y == "+":
+    print(float(x + z))
 
+if y == "-":
+    print(float(x - z))
 
-Print(int(x, y, z))
+if y == "*":
+    print(float(x * z))
+
+if y == "%":
+    print(float(x % z))
