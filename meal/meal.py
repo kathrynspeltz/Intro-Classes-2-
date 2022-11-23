@@ -1,3 +1,5 @@
+time = input("what time is it? ")
+
 def main():
     ...
 
