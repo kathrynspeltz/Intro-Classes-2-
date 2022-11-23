@@ -2,17 +2,17 @@ response = input("what is your file name? ").casefold().strip()
 
 if response.endswith(".gif"):
     print("image/gif")
-if response.endswith(".jpg"):
+elif response.endswith(".jpg"):
     print("image/jpeg")
-if response.endswith(".jpeg"):
+elif response.endswith(".jpeg"):
     print("image/jpeg")
-if response.endswith(".png"):
+elif response.endswith(".png"):
     print("image/png")
-if response.endswith(".pdf"):
+elif response.endswith(".pdf"):
     print("application/pdf")
-if response.endswith(".txt"):
+elif response.endswith(".txt"):
     print("text/plain")
-if response.endswith(".zip"):
+elif response.endswith(".zip"):
     print("application/zip")
 else:
     print("application/octet-stream")
