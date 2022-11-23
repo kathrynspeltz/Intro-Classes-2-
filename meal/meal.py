@@ -2,7 +2,7 @@ hours, minutes = input("what time is it? ").split(":")
 
 if hours == "7":
     print("breakfast time")
-if hours == "8" and minutes == "00":
+elif hours == "8" and minutes == "00":
     print("breakfast time")
 
 elif hours == 12:
