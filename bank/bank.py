@@ -1,0 +1,1 @@
+response = input("How would you like to be greeted? ")
