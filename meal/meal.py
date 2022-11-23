@@ -1,21 +1,15 @@
 
 
 def main():
-    time = input("what time is it? ")
+    time = convert(input("what time is it? "))
 
-    if hours == "7":
-        print("breakfast time")
-    elif hours == "8" and minutes == "0":
+    if "7" <= time >= "8":
         print("breakfast time")
 
-    elif hours == "12":
-        print("lunch time")
-    elif hours == "13" and minutes == "0":
+    elif "11" <= time >= "12":
         print("lunch time")
 
-    elif hours == "18":
-        print("dinner time")
-    elif hours == "19" and minutes == "0":
+    elif "18" <= time >= "19":
         print("dinner time")
 
 
