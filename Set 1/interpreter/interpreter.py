@@ -9,5 +9,5 @@ if y == "-":
 if y == "*":
     print(float(x) * float(z))
 
-if y == "%":
-    print(float(x) % float(z))
+if y == "/":
+    print(float(x) / float(z))
