@@ -15,4 +15,5 @@ elif hours == 18:
 elif hours == 19 and minutes == 00:
     print("dinner time")
 
-    
+else:
+    print("skipped")
