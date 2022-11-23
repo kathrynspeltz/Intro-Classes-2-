@@ -1,4 +1,4 @@
-hours, minutes = input("what time is it? ").split(":")
+hours, minutes = convert(input("what time is it? ").split(":"))
 
 if hours == "7":
     print("breakfast time")
