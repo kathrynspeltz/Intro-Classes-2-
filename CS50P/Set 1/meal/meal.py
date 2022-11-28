@@ -10,13 +10,13 @@ def main():
     elif 11 <= new_time <= 12:
         print("lunch time")
 
-    elif 18 <= new_time <= 19:
+    elif 18 = new_time <= 19:
         print("dinner time")
 
 
 def convert(time):
     hours, minutes = time.split(":")
-    converted = float(hours)+(float(minutes)/60)
+    converted = float(hours) + (float(minutes)/60)
     return converted
 
 main()
