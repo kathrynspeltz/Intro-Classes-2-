@@ -18,3 +18,4 @@ def convert(time):
     hours, minutes = time.split(":")
     float(hours)
     float(minutes)/60
+    Return(time)
