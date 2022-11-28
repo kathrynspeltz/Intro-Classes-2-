@@ -1,1 +1,1 @@
-input("What is )
+input("What is the name?")
