@@ -1,1 +1,2 @@
-input("What is the name?")
+variable = input("What is the name? ")
+print(variable)
