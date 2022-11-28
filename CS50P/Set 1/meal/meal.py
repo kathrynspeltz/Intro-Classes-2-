@@ -7,7 +7,7 @@ def main():
     if 7 <= new_time <= 8:
         print("breakfast time")
 
-    elif 11 <= new_time <= 12:
+    elif 12 <= new_time <= 13:
         print("lunch time")
 
     elif 18 <= new_time <= 19:
