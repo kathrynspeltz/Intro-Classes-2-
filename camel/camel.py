@@ -4,7 +4,7 @@ for i in name:
     if i.islower():
         print(i)
     else:
-        print(i)
+        print("_" + i.lower())
 
 
 
