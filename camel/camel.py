@@ -5,7 +5,7 @@ for i in name:
         print(i, end="")
     else:
         print("_" + i.lower(), end="")
-print("/n")
+print("\n")
 
 
 
