@@ -1,8 +1,4 @@
-line1 = input("lcamelcase: ")
-
-for letters in line1:
-    if letters isupper()
-    then 
+name = input("what is your name? ")
 
 
 
