@@ -1,5 +1,5 @@
 name = input("camelcase: ")
-
+print()
 for i in name:
     if i.islower():
         print(i, end="")
