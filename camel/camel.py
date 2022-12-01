@@ -2,9 +2,10 @@ name = input("camelcase: ")
 
 for i in name:
     if i.islower():
-        print(i)
+        print(i, end="")
     else:
-        print("_" + i.lower())
+        print("_" + i.lower(), end="")
+print("/n")
 
 
 
