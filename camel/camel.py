@@ -5,7 +5,7 @@ for i in name:
         print(i)
     else:
         print("_" + i.lower())
-print(name)
+
 
 
 
