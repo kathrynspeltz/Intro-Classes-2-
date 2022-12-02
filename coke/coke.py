@@ -7,11 +7,11 @@ added = 0
 while added <= 50:
     if value == 25 or value == 10 or value == 5:
         added += value
-            if added <= 50:
+        while added <= 50:
                 break
-             else:
+        else:
                     print("Amount Due: ")
-     else:
+else:
             print("Amount Due:", added)
 
 if added > 50:
