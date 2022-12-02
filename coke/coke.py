@@ -8,7 +8,6 @@ while true:
         if value == 25 or value == 10 or value == 5:
             total = value + added
                 if total >= 50
-                
-        elif:
-            print("Amount Due: )
 
+        elif:
+            print("Amount Due:", added)
