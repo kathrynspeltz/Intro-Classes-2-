@@ -11,7 +11,7 @@ while added <= 50:
                 break
         else:
                     print("Amount Due: ")
-else:
+    else:
             print("Amount Due:", added)
 
 if added > 50:
