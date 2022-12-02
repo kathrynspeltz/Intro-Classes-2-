@@ -12,7 +12,7 @@ while added <= 50:
         else:
             print("Amount Due: ", cost - added)
     else:
-            print("Amount Due:", added)
+            print("Amount Due: oops", added)
 
 if added > 50:
     print("Change Owed: ", (added - 50))
