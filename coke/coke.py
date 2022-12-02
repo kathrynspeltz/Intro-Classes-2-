@@ -6,8 +6,9 @@ added = 0
 while true:
     value = int(input("Insert Coin: "))
         if value == 25 or value == 10 or value == 5:
-            added = value + added
+            total = value + added
+                if total >= 50
+                
         elif:
             print("Amount Due: )
 
-            
