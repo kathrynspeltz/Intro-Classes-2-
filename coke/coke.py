@@ -13,3 +13,5 @@ while added <= 50:
      else:
             print("Amount Due:", added)
 
+if added > 50:
+    print("Change Owed: ", (added - 50))
