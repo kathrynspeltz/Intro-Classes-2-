@@ -10,10 +10,10 @@ while added <= 50:
         while added <= 50:
                 break
         else:
-            print(f"Amount Due: {50 - added}")
+            print("Amount Due: ", cost - added)
             break
     else:
-            print(f"Amount Due: oops", {cost - added})
+            print("Amount Due: oops", cost - added)
             break
 
 if added > 50:
