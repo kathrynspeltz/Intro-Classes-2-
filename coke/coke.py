@@ -10,6 +10,7 @@ while added <= 50:
             added += value
             if added >= 50:
                 print("Change Owed: ", (added - 50))
+                break
             else:
                 print("Amount Due: ", 50 - added)
     else:
