@@ -11,7 +11,6 @@ while added <= 50:
                 break
         else:
             print("Amount Due: ", 50 - added)
-            break
     else:
             print("Amount Due: ", 50 - added)
             break
