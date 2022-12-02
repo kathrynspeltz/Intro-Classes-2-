@@ -9,7 +9,6 @@ if value == 25 or value == 10 or value == 5:
     added += value
     while added < 50:
         print("Amount Due: ", cost - added)
-    else:
 
 else:
         print("Amount Due: ", cost - added)
