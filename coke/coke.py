@@ -10,7 +10,7 @@ while added <= 50:
         while added <= 50:
                 break
         else:
-            print("Amount Due: ", cost - added)
+            print("Amount Due: ", int(cost - added))
     else:
             print("Amount Due: oops", added)
 
