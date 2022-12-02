@@ -13,7 +13,7 @@ while added <= 50:
             print(f"Amount Due: {50 - added}")
             break
     else:
-            print("Amount Due: oops", added)
+            print(f"Amount Due: oops", {cost - added})
             break
 
 if added > 50:
