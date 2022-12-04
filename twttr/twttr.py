@@ -1,6 +1,6 @@
-Tweet = input("What's your Tweet? ")
-print("snakecase: ", end="" )
-for i in name:
+tweet = input("Input: ")
+print("Output: ", end="" )
+for i in tweet:
     if i.islower():
         print(i, end="")
     else:
