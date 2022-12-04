@@ -8,6 +8,7 @@ def main():
 
 def is_valid(s):
     if plate:
+        
 # All vanity plates must start with at least two letters
 
 # vanity plates may contain a maximum of 6 characters (letters or numbers) and a minimum of 2 characters
