@@ -1,7 +1,8 @@
 tweet = input("Input: ")
 print("Output: ", end="" )
+vowels = ["a" , "e" , "i" , "o" , "u"]
 for c in tweet:
-    if c.search([a , e , i , o , u]):
+    if c.search(vowles):
         print(c, end="")
     else:
         print("", end="")
