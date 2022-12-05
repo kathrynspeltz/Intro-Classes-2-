@@ -22,5 +22,5 @@ nutrition = [
     {"fruit": "watermelon", "calories": "80"},
 ]
 
-if fruit == (nutrition["fruit"]):
+if fruit is (nutrition["fruit"]):
     print(int(nutrition["calories"]))
