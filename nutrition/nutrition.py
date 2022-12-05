@@ -1,4 +1,4 @@
-fruit = input("Item: ")
+fruit = int(input("Item: "))
 nutrition = [
     {"fruit": "apple", "calories": "130"},
     {"fruit": "avacado", "calories": "50"},
