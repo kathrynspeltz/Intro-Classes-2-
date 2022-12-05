@@ -21,6 +21,5 @@ nutrition = [
     {"fruit": "tangerine", "calories": "50"},
     {"fruit": "watermelon", "calories": "80"},
 ]
-
-if fruit is (nutrition["fruit"]):
+for fruit in nutrition:
     print(int(nutrition["calories"]))
