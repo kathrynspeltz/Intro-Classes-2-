@@ -1,4 +1,4 @@
-fruit = int(input("Item: "))
+fruit = input("Item: ")
 nutrition = [
     {"fruit": "apple", "calories": "130"},
     {"fruit": "avacado", "calories": "50"},
@@ -23,4 +23,4 @@ nutrition = [
 ]
 
 if fruit == (nutrition["fruit"]):
-    print(nutrition["calories"])
+    print(int(nutrition["calories"]))
