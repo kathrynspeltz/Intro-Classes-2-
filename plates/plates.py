@@ -10,8 +10,8 @@ def is_valid(s):
     if s.[0,2]isalpha() and 6 >= len(s) >= 2 and s.isalnum() and if s.[0,1] != 0:
         return True
 
-    elif:
-        retun False
+    else:
+        return False
 
 
 # All vanity plates must start with at least two letters
