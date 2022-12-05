@@ -21,4 +21,5 @@ nutrition = [
     {"fruit": "tangerine", "calories": "50"},
     {"fruit": "watermelon", "calories": "80"},
 ]
-print(nutrition[nutrition])
+for fruit in nutrition:
+    print(nutrition[nutrition])
