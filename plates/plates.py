@@ -9,7 +9,8 @@ def main():
 def is_valid(s):
     if s.[0,2]isalpha() and 6 >= len(s) >= 2 and s.isalnum()
 
-        if s.[0,1]isdigit(0)
+        if s.[0,1] = 0
+        return False
 
 # All vanity plates must start with at least two letters
 s.[0,2]isalpha()
