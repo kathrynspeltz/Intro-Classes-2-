@@ -8,3 +8,4 @@ for fruit in nutrition.keys():
     if fruit == food:
         calories = nutrition[fruit]
     print("Calories:", calories)
+    break
