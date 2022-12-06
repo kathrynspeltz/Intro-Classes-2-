@@ -4,7 +4,7 @@ nutrition = {"apple": 130, "avocado": 50, "banana": 110, "cantaloupe": 50, "grap
     "plums": 70, "strawberries": 50, "sweet cherries": 100, "tangerine": 50, "watermelon": 80}
 
 
-for fruit in nutrition.keys():
+for fruit in nutrition():
     if fruit == food:
         print("Calories:", nutrition[fruit])
     break
