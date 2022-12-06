@@ -6,6 +6,5 @@ nutrition = {"apple": 130, "avocado": 50, "banana": 110, "cantaloupe": 50, "grap
 
 for fruit in nutrition.keys():
     if fruit == food:
-        calories == nutrition[fruit]
-    print("Calories:", calories)
+        print("Calories:", nutrition[fruit])
     break
