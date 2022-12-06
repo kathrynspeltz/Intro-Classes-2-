@@ -4,8 +4,8 @@ nutrition = {"apple": 130, "avocado": 50, "banana": 110, "cantaloupe": 50, "grap
     "plums": 70, "strawberries": 50, "sweet cherries": 100, "tangerine": 50, "watermelon": 80}
 
 
-for fruit, calories in nutrition.values():
+for fruit in nutrition.values():
     if fruit == food:
-        print("Calories:", calories)
+        print("Calories:")
     else:
         print("oops")
