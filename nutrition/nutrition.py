@@ -1,4 +1,7 @@
-fruit = input("Item: ")
+food
+
+
+ = input("Item: ")
 nutrition = [
     {"fruit": "apple", "calories": "130"},
     {"fruit": "avacado", "calories": "50"},
@@ -21,6 +24,8 @@ nutrition = [
     {"fruit": "tangerine", "calories": "50"},
     {"fruit": "watermelon", "calories": "80"},
 ]
+
+
 for fruit in nutrition:
     print(int(nutrition["calories"]))
 
