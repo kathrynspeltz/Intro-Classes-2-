@@ -6,7 +6,7 @@ nutrition = {"apple": 130, "avacado": 50, "banana": 110, "cantaloupe": 50, "grap
 
 for fruit in nutrition.values():
     if fruit == food:
-        calories = dictrionary[fruit]
+        calories = dictionary[fruit]
     print(int(nutrition["calories"]))
 
 
