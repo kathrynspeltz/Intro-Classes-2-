@@ -26,7 +26,9 @@ nutrition = [
 ]
 
 
-for fruit in nutrition:
+for fruit in nutrition.values():
+    if fruit == food:
+        calories = dictrionary[fruit]
     print(int(nutrition["calories"]))
 
 
