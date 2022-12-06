@@ -7,4 +7,3 @@ nutrition = {"apple": 130, "avocado": 50, "banana": 110, "cantaloupe": 50, "grap
 for fruit in nutrition.values():
     if fruit == food:
         print("Calories:", nutrition[fruit])
-    break
