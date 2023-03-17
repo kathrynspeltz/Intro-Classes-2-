@@ -1,14 +1,13 @@
 
-def lesser_of_two_evens(a,b):
-    if a%2 == 0 and b%2 == 0:
-        if a > b:
-            return b
-        else:
-            return a
-    else:
-        if a > b:
-            return a
-        else:
-            return b
 
-print(lesser_of_two_evens(2,5))
+def animal_crackers(animal):
+    animal.split()
+    for i in animal:
+        if i[0] == i+1[0]:
+            return True
+        else:
+            return False
+
+
+
+print(animal_crackers('Levelheaded Llama'))
