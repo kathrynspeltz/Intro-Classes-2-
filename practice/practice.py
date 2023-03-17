@@ -1,9 +1,10 @@
 
 def old_macdonald(name):
-    for i in name:
+    name2 = name.split()
+    for i in name2:
         if i == 0 or i == 3:
-            return i.upper()
+            print(i.upper())
         else:
-            return i
+            print(i)
 
-print(old_macdonald("macdonald"))
+print(old_macdonald("macdonald farm"))
