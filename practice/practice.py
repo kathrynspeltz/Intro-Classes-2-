@@ -11,4 +11,4 @@ def lesser_of_two_evens(a,b):
         else:
             return b
 
-print(lesser_of_two_evens(3,4))
+print(lesser_of_two_evens(2,5))
