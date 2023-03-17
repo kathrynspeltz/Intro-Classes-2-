@@ -3,7 +3,7 @@
 def animal_crackers(animal):
     animal.split()
     for i in animal:
-        if i[0] == i+1[0]:
+        if i[0] == i[0]:
             return True
         else:
             return False
