@@ -1,10 +1,9 @@
 
-def old_macdonald(name):
-    name2 = name.split()
-    for i in name2:
-        if i == 0 or i == 3:
-            print(i.upper())
-        else:
-            print(i)
+lista = [1, 3, 3]
 
-print(old_macdonald("macdonald farm"))
+def has_33(listb):
+    for i in listb:
+        if i == 3 and i[i + 1] == 3:
+            return True
+
+print(has_33(lista))
