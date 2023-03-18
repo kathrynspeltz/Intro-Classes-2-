@@ -1,10 +1,7 @@
+list1 = [1, 2, 3]
+list2 = ['a', 'b', 'c']
 
-lista = [1, 4, 3]
+start = 0
 
-def has_33(nums):
-    for i in range(0, len(nums)-1):
-        if nums[i] == 3 and nums[i+1] == 3:
-            return True
-    return False
-
-print(has_33(lista))
+for i in range(len(list1)):
+    print(list1[i], list2[i])
