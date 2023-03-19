@@ -1,8 +1,11 @@
-list1 = [1, 2, 3]
-list2 = ['.5', '.2', '.3']
+price = [1, 2, 3]
+discount = ['.5', '.2', '.3']
 
 bill = 0
 
-for i in range(len(list1)):
-    bill =+ list1[i]*list2[i]
-print(bill)
+def shopping(list):
+    for i in list:
+        bill =+ i
+
+
+print(shopping(price))
