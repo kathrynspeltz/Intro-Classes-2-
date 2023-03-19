@@ -3,7 +3,7 @@ discount = [.5, .2, .3]
 
 bill1 = 0
 
-for a, b in price, discount:
+for (a, b) in zip(price, discount):
     bill1 += (a * b)
     print(bill1)
 
