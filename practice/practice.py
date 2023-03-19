@@ -1,4 +1,4 @@
-price = [1, 2, 3]
+price = [20, 50, 70]
 discount = [.5, .2, .3]
 
 def shopping(a,b):
