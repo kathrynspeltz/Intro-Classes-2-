@@ -1,9 +1,9 @@
-price = [20, 50, 70]
+price = [2, 5, 7]
 discount = [.5, .2, .3]
 
-def shopping(a,b):
+def shopping(c,d):
     bill1 = 0
-    for (a, b) in zip(price, discount):
+    for (a, b) in zip(c,d):
         bill1 += (a * b)
     if bill1 > 20:
         return "cannot afford"
