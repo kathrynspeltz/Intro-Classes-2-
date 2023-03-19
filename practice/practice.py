@@ -4,9 +4,9 @@ discount = [.5, .2, .3]
 
 def shopping(list):
     bill1 = 0
-    for i in list:
-        bill1 += i
+    for a, b in list:
+        bill1 += (a * b)
     return bill1
 
 
-print(shopping(price))
+print(shopping(price, discount))
