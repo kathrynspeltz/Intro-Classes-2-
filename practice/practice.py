@@ -1,8 +1,9 @@
 
-def multiplier(example):
-    examplenew = ""
-    for i in example:
-        examplenew += i * 3
-    return examplenew
+def blackjack(a,b,c):
+    blacknew = 0
+    if a + b + c =
 
-print(multiplier("hello"))
+print(blackjack(5,6,7))
+
+#Given three integers between 1 and 11, if their sum is less than or equal to 21, return their sum. If their
+sum exceeds 21 and there's an eleven, reduce the total sum by 10. Finally, if the sum (even after adjustment) exceeds 21, return 'BUST'
