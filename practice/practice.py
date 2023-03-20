@@ -5,5 +5,5 @@
 def fibonacci(nums):
     list2 = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
     for i in range(nums):
-        list2 = list2.append(i +  i[i-])
+        list2 = list2.append(i + nums[i - 1])
 
