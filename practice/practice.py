@@ -5,6 +5,6 @@ def multiples(nums):
             value += i
     return value
 
-print(multiples(10))
+print(multiples(1000))
 
 
