@@ -2,10 +2,15 @@
 #1, 2, 3, 5, 8, 13, 21, 34, 55, 89,
 #By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
-def fibonacci(nums):
-    list2 = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-    list2 += nums
-    return list2
+list2 = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 
-print(fibonacci(10))
+def fibonacci(nums):
+    num1 = 0
+    for i in nums:
+        if i%2 == 0:
+            num1 += i
+    return num1
+
+
+print(fibonacci(list2))
 
