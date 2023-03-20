@@ -4,7 +4,7 @@
 
 def fibonacci(nums):
     num1 = []
-    for i in nums:
+    for i in range(nums):
         if i%2 == 0:
             num1 += i
     return num1[-1]
