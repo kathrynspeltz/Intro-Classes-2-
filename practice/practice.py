@@ -1,8 +1,11 @@
 
-a = "my name is kathryn"
-b = "hello"
+a = "kathryn"
+b = []
 
-print(a,b)
+for i in a:
+    b += i
+
+print(b)
 
 
 
