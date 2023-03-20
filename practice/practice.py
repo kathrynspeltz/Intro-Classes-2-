@@ -1,11 +1,5 @@
-
-a = "kathryn"
-b = []
-
-for i in a:
-    b += i
-
-print(b)
-
+def multiples(nums):
+    value = 0
+    for 
 
 
