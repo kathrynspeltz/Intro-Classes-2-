@@ -3,6 +3,8 @@ def summer_69(numbers):
     for i in numbers:
         if i == 6:
             
+        else:
+            return i
 
 summer_69([1, 3, 5])
 
