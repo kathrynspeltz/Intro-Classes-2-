@@ -1,7 +1,4 @@
 
-def newprob(n):
-    for i in range(n):
-        if i%2 == 0:
-         print(i)
-
-newprob(10)
+list1 = [1, 2, 4, 2, 1, 4, 5]
+res = [*set(list1)]
+print(res)
