@@ -1,11 +1,8 @@
 
-lista = [2, 4, 6, 8]
-
-def show_even_indices(nums):
-    listb = []
+def replacementa(nums):
     for i in nums:
-        if i % 2 == 0:
-            listb.append(lista.index(i))
-    return listb
+        if i == "A" or i == "a" or i == "e" or i == "E" or i == "I" or i == "i" or i == "o" or i == "O" or i == "U" or i == "u":
+            i = "*"
+    return nums
 
-print(show_even_indices(lista))
+print(replacementa(['o', 'o', 'o']))
