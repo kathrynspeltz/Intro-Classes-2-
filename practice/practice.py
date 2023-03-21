@@ -5,7 +5,7 @@ def show_even_indices(nums):
     listb = []
     for i in nums:
         if i % 2 == 0:
-            listb.append(i)
+            listb.append(lista.index(i))
     return listb
 
 print(show_even_indices(lista))
