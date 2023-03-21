@@ -1,9 +1,17 @@
 
-def vowels(words):
-    newlist = []
-    for n in words:
-        if n[0] == "i" or n[0] == "e" or n[0] == "o" or n[0] == "u":
-            newlist.append(n)
-    return newlist
+lista = [2, 4, 6, 8, 11, 3, 6]
 
-print(vowels(["elephant", "hello", "octopus"]))
+def oddeven(nums):
+    listeven = []
+    listodd = []
+    for i in nums:
+        if i%2 == 0:
+            listeven.append(i)
+        else:
+            listodd.append(i)
+    if len(listeven) > len(listodd):
+        return "Even"
+    elif len(listeven) < len(listodd):
+        return "Odd"
+
+print(oddeven(lista))
