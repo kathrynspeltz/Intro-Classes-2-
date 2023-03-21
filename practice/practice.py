@@ -1,10 +1,14 @@
 
-listc =['o', 'b', 'c']
+price = [2, 4, 6, 8]
+discount = [.2, .4, .6, .8]
 
-def replacementa(nums):
-    for i in nums:
-        if i == "A" or i == "a" or i == "e" or i == "E" or i == "I" or i == "i" or i == "o" or i == "O" or i == "U" or i == "u":
-            nums[i] = "*"
-    return nums
+def groceries(a, b):
+    bill1 = 0
+    for (a, b) in zip(price, discount):
+        bill1 += (a * b)
+    if bill1 > 20:
+        return "cannot afford"
+    if bill1 <= 20:
+        return "good to go"
 
-print(replacementa(listc))
+print(groceries(price,discount))
