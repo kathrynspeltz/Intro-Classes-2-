@@ -1,11 +1,11 @@
 
-list2 = [2, 4, 6, 8]
+lista = [2, 4, 6, 8]
 
 def show_even_indices(nums):
-    lista = []
+    listb = []
     for i in nums:
         if i % 2 == 0:
-            lista += i
-    return lista
+            listb.append(i)
+    return listb
 
-print(show_even_indices(list2))
+print(show_even_indices(lista))
